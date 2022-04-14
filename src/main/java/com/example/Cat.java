@@ -7,7 +7,7 @@ public class Cat {
     Predator predator;
 
     public Cat(Feline feline) {
-        this.predator = feline;
+           this.predator = feline;
     }
 
     public String getSound() {
