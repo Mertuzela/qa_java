@@ -14,7 +14,7 @@ public class CatTest {
         //Act
         String actualSound = cat.getSound();
         //Assert
-        Assert.assertEquals(actualSound,expectedSound);
+        Assert.assertEquals(expectedSound,actualSound);
     }
     @Test
     public void getFoodReturnsCorrectValue() throws Exception {
@@ -24,6 +24,6 @@ public class CatTest {
         //Act
         List<String> actualFood = cat.getFood();
         //Assert
-        Assert.assertEquals(actualFood, expectedFood);
+        Assert.assertEquals(expectedFood, actualFood);
     }
 }

@@ -10,7 +10,7 @@ public class FelineTest {
         Feline feline = new Feline();
         String expectedFamily = "Кошачьи";
         String actualFamily = feline.getFamily();
-        Assert.assertEquals(actualFamily, expectedFamily);
+        Assert.assertEquals(expectedFamily,actualFamily);
     }
 
     @Test
@@ -18,7 +18,7 @@ public class FelineTest {
         Feline feline = new Feline();
         int expectedKittensCount = 1;
         int actualKittensCount = feline.getKittens();
-        Assert.assertEquals(actualKittensCount, expectedKittensCount);
+        Assert.assertEquals(expectedKittensCount,actualKittensCount);
     }
 
     @Test
@@ -26,6 +26,6 @@ public class FelineTest {
         Feline feline = new Feline();
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
         List<String> actual = feline.eatMeat();
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected,actual);
     }
 }
